@@ -1,0 +1,23 @@
+/*SELECT*/
+
+SELECT * FROM "esquema"."DEPARTAMENTOS";
+
+SELECT "NOMBRE","APELLIDO1"
+FROM "esquema"."PERSONAS";
+
+SELECT * FROM "esquema"."DEPARTAMENTOS";
+
+SELECT * FROM "esquema"."PERSONAS";
+
+SELECT * FROM "esquema"."PRODUCTOS";
+
+SELECT * FROM "esquema"."PEDIDOS";
+
+SELECT "PER", "NOMBRE", "DNI" 
+FROM "esquema"."PERSONAS";
+
+/*Consultar los datos de las columnas 
+PRODUCTO Y PRECIO de la tabla PRODUCTOS*/
+
+SELECT "PRODUCTO", "PRECIO"
+FROM "esquema"."PRODUCTOS";
