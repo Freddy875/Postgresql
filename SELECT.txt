@@ -55,3 +55,23 @@ PRODUCTO Y PRECIO de la tabla PRODUCTOS*/
 
 SELECT "PRODUCTO", "PRECIO"
 FROM "esquema"."PRODUCTOS";
+
+---
+
+/*SELECT DISTINCT*/
+
+/*
+Este código selecciona valores únicos de la columna "NOMBRE" de la tabla "PERSONAS"
+ubicada en el esquema "esquema". La palabra clave DISTINCT asegura que solo se devuelvan
+valores distintos, eliminando duplicados.
+*/
+SELECT DISTINCT "NOMBRE"
+FROM "esquema"."PERSONAS";
+
+
+/*Seleccionar los distintos productos 
+de la tabla PEDIDOS*/
+
+SELECT DISTINCT "PRODUCTO"
+FROM "esquema"."PEDIDOS";
+
