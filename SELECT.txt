@@ -1,18 +1,52 @@
 /*SELECT*/
 
+/*Este código selecciona todas las columnas y filas de la tabla "DEPARTAMENTOS"
+ubicada en el esquema "esquema". El asterisco (*) se usa para indicar 
+que se deben recuperar todas las columnas.*/
+
 SELECT * FROM "esquema"."DEPARTAMENTOS";
+
+/*
+Este código selecciona las columnas "NOMBRE" y "APELLIDO1" de la tabla "PERSONAS"
+ubicada en el esquema "esquema". Solo se recuperan los datos de estas dos columnas.
+*/
 
 SELECT "NOMBRE","APELLIDO1"
 FROM "esquema"."PERSONAS";
 
+/*
+Este código selecciona todas las columnas y filas de la tabla "DEPARTAMENTOS"
+ubicada en el esquema "esquema". El asterisco (*) indica que se deben recuperar
+todas las columnas de la tabla.
+*/
+
 SELECT * FROM "esquema"."DEPARTAMENTOS";
 
+/*
+Este código selecciona todas las columnas y filas de la tabla "PERSONAS"
+ubicada en el esquema "esquema". El asterisco (*) indica que se deben recuperar
+todas las columnas de la tabla.
+*/
 SELECT * FROM "esquema"."PERSONAS";
 
+/*
+Este código selecciona todas las columnas y filas de la tabla "PRODUCTOS"
+ubicada en el esquema "esquema". El asterisco (*) indica que se deben recuperar
+todas las columnas de la tabla.
+*/
 SELECT * FROM "esquema"."PRODUCTOS";
 
+/*
+Este código selecciona todas las columnas y filas de la tabla "PEDIDOS"
+ubicada en el esquema "esquema". El asterisco (*) indica que se deben recuperar
+todas las columnas de la tabla.
+*/
 SELECT * FROM "esquema"."PEDIDOS";
 
+/*
+Este código selecciona las columnas "PER", "NOMBRE" y "DNI" de la tabla "PERSONAS"
+ubicada en el esquema "esquema". Solo se recuperan los datos de estas tres columnas.
+*/
 SELECT "PER", "NOMBRE", "DNI" 
 FROM "esquema"."PERSONAS";
 
